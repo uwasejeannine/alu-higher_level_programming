@@ -1,15 +1,24 @@
-#!/usr/bin/python3
-Class Square:
+"""This module provides tools for working with squares."""
+
+class Square:
     """A square with a side length.
 
     Attributes:
-    name (str): The length of each side of the square.
+        size (int): The length of each side of the square.
     """
-    pass
- def __init__(self,name="Jeannine"):
-     """Creates a new Square with a given side length.
+
+    def __init__(self, size=0):
+        """Creates a new Square with a given side length.
 
         Args:
-            name (str): The length of each side of the square.
+            size (int): The length of each side of the square.
         """
-    self.name=name
+        self.size = size
+
+    def area(self):
+        """Returns the area of the square.
+
+        Returns:
+            int: The area of the square (size squared).
+        """
+        return self.size ** 2
