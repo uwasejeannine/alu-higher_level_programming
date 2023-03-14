@@ -14,7 +14,7 @@ class Square:
         Args:
             size (int): The length of each side of the square.
         """
-        self.size = size
+        self.size =Square
 
     def area(self):
         """Returns the area of the square.
