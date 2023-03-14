@@ -4,7 +4,6 @@
 
 class Square:
     """A square with a side length.
-
     Attributes:
         size (int): The length of each side of the square."""
     pass 
