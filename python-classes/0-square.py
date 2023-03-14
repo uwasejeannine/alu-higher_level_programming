@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 Class Square:
     pass
-obj=Square()
-print(obj)
+ def __init__(self,name="Jeannine"):
+    self.name=name
