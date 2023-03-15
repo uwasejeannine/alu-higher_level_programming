@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""This module provides tools for working with squares."""
+""" Write an empty class Square that defines a square
+"""
 
 
 class Square:
-    """A square with a side length."""
-    pass 
+    """ An empty class that defines a square"""
+    pass
