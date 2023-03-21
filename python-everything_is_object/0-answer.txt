@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-x = 42
-print(type(x))
+type
