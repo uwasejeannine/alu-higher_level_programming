@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Def"""
+"""Defines a Rectangle subclass Square."""
+
 class Square(Rectangle):
     """Represent a square."""
 
