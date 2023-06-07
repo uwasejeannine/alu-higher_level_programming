@@ -1,6 +1,2 @@
 #!/usr/bin/node
-const add = require('./add');
-
-const result = add(5, 3);
-console.log(result); // Output: 8
-
+module.exports.add = (a, b) => parseInt(a) + parseInt(b);
