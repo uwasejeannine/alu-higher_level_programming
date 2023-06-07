@@ -5,5 +5,5 @@ const numArgs = args.length;
 if (numArgs >= 2) {
   console.log(args[0] + ' is ' + args[1]);
 } else {
-  console.log('You should provide two arguments.');
+  console.log('HBTN is undefined');
 }
