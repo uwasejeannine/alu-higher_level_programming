@@ -23,3 +23,4 @@ function isWedgeAntillesPresent(movie) {
     console.error('An error occurred while making the request:', error);
   }
 })();
+;
