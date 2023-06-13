@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 const request = require('request-promise');
 
 // Function to check if Wedge Antilles is present in a movie
@@ -24,4 +25,3 @@ function isWedgeAntillesPresent(movie) {
     console.error('An error occurred while making the request:', error);
   }
 })();
-
