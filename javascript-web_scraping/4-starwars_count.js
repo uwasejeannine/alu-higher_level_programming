@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const request = require('request-promise');
 
 // Function to check if Wedge Antilles is present in a movie
